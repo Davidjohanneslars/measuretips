@@ -1,0 +1,405 @@
+  body {
+    margin: 0;
+    font-family: 'Poppins' -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #2E2E2E;
+  }
+  
+  
+  
+
+
+  .nav-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    
+  }
+  .link {
+    display: flex;
+    justify-content: space-around;
+    text-decoration:none;
+  }
+  .nav-logo-title {
+    height: 100px;
+    padding-left: 70px;
+    font-family: 'Concert One';
+  }
+  .nav-logo {
+    width: 60px;
+    height: 50px;
+    margin-bottom: -12%;
+    
+  }
+
+  .nav-title {
+   color: #FFFFFF;  
+   font-size: 26px;
+   line-height: 0;
+   font-weight: 100;
+   margin-top: 0;
+   margin-bottom: 0;
+  
+  }
+  
+  .nav-subtitle {
+    color: #26F6D1;
+    font-size: 14px;
+    line-height: 0;
+    margin-top: 60;
+    margin-bottom: 0;
+    font-weight: 100;
+    font-family: 'Concert One';
+    }
+  .homepage-title {
+    font-family: 'Concert One';
+    font-size: 30px;
+    color: #FFFFFF;
+    font-weight:40;
+    padding-left: 5%;
+    margin-bottom: 80px;
+  }
+  .main-text {
+    color: white;
+    font-family: 'Poppins';
+    display: flex;
+    max-width: 700px;
+  }
+  .blog-img {
+    width: 70%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ .blog-card {
+    color:#FFFFFF;
+    font-size: 17px;
+    font-family: 'Poppins'; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cards-list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  .blog-summary {
+    font-size: 14px;
+    width: 73%;
+    font-style: italic;
+  }
+  .upload-date{
+    color:#26F6D1;
+    font-family: 'Concert One';
+    font-size: 18px;
+    font-weight: 200;
+  }
+   .upload-date-article{
+    color:#26F6D1;
+    font-family: 'Concert One';
+    font-weight: 100;
+    display: flex;
+    font-size: 16px;
+    padding-left: 7%;
+    margin-bottom: 80px;
+  }
+  .article-img  {
+    width: 80%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 30px;
+  } 
+  .article-img-2  {
+    width: 80%;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom:-17px;
+  }
+ .article-qoute {
+    font-family: 'Concert One';
+    color: #26F6D1;
+    font-weight: 100;
+    display: flex;
+    font-size: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+
+  }
+ .article-quote-2  {
+    font-family: 'Concert One';
+    color: #26F6D1;
+    font-weight: 100;
+    display: flex;
+    width: 60%;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 78%;
+    font-style: italic;
+  }
+ .article-title {
+    font-family: 'Concert One';
+    color: white;
+    font-weight: 100;
+    display: flex;
+    font-size: 22px;
+    padding-left: 7%;
+    padding-top: 0;
+    margin-top: 0; 
+    margin-bottom: 4px;
+  }
+ .article-content-1,.article-content-2  {
+    font-family: 'Poppins';
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 70%;
+    
+  }
+
+
+/* Desktop */
+/* Desktop */
+/* Desktop */
+@media all and (min-width: 641px) {
+  body {
+    margin: 0;
+    font-family: 'Poppins' -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #2E2E2E;
+  }
+  /* Desktop */
+  .nav {
+    font-family: 'Concert One';
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  /* Desktop */
+  .nav-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  /* Desktop */
+  .nav-click-link {
+    display: flex;
+    text-decoration:none;
+   
+  }
+  /* Desktop */
+  .nav-logo-title {
+    height: 100px;
+    padding-left: 20px;
+    margin-top: 30px;
+  }
+  /* Desktop */
+  .nav-logo {
+    width: 100px;
+    height: 80px;
+    
+  }
+  /* Desktop */
+  .nav-list {
+   color: #FFFFFF;  
+   font-size: 20px;
+   display:flex;  
+   list-style:none;
+   text-decoration:none;
+   
+  }
+  /* Desktop */
+  .nav-title {
+   color: #FFFFFF;  
+   font-size: 37px;
+   line-height: 0;
+   font-weight: 100;
+   margin-top: 0;
+   margin-bottom: 0;
+   text-decoration:none;
+   
+  
+  }
+  .nav-subtitle {
+    color: #26F6D1;
+    font-size: 18px;
+    line-height: 0;
+    margin-top: 40;
+    margin-bottom: 0;
+    text-decoration:none;
+    font-weight: 100;
+  }
+  /* Desktop */
+  .homepage-title {
+    font-family: 'Concert One';
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight:40;
+    padding-left: 23%;
+    margin-bottom: 80px;
+  }
+  /* Desktop */
+  .main-text {
+    color: white;
+    font-family: 'Poppins';
+    display: flex;
+    max-width: 700px;
+  }
+  /* Desktop */
+  .blog-img {
+    width: 60%;
+    border-radius: 10px;
+  }
+  /* Desktop */
+  .blog-card {
+    border-radius: 10px;       
+    color:#FFFFFF;
+    font-size: 17px;
+    font-family: 'Poppins'; 
+  }
+
+  .blog-title {
+    font-size: 20px;
+  }
+  .blog-summary {
+    font-size: 14px;
+    width: 60%;
+    font-style: italic;
+   
+  }
+  /* Desktop */
+  .cards-list {
+    margin-left: 30%
+  }
+  /* Desktop */
+  .upload-date{
+    color:#26F6D1;
+    font-family: 'Concert One';
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  .article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+ /* Desktop */
+  .article-img  {
+    width: 40%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ 
+  }
+  /* Desktop */
+  .article-img-2  {
+    width: 40%;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+  }
+  /* Desktop */
+  .article-quote {
+    font-family: 'Concert One';
+    color: #26F6D1;
+    font-weight: 100;
+    display: flex;
+    width: 40%;
+    font-size: 38px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Desktop */
+  .article-quote-2  {
+    font-family: 'Concert One';
+    color: #26F6D1;
+    font-weight: 100;
+    display: flex;
+    width: 40%;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    margin-top: 18px;
+  }
+  /* Desktop */
+  .article-title {
+    font-family: 'Concert One';
+    color: white;
+    font-weight: 100;
+    font-size: 52px;
+    align-self: center;
+    padding-top: 0;
+    margin-top: 0; 
+    width: 50%;
+    padding-left: 0;
+  }
+/* Desktop */
+  .upload-date-article{
+    color:#26F6D1;
+    font-family: 'Concert One';
+    font-weight: 100;
+    font-size: 22px;
+    padding-left: 25%;
+    padding-top: 0;
+    margin-top: 0;
+  
+  }
+  /* Desktop */
+  .article-content-1,.article-content-2  {
+    font-family: 'Poppins';
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  /* Desktop */
+
+  .footer a {
+    color: white;
+    font-family: 'Concert One';
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    list-style:none;
+    color: white;
+    text-decoration: none; 
+  }
+  /* Desktop */
+
+ .footer {
+      color: white;
+      font-family: 'Concert One';
+      text-align: center;
+      font-size: 18px;
+      font-weight: 100;
+      list-style:none;
+      color: white;
+      text-decoration:none; 
+  }
+
+}
