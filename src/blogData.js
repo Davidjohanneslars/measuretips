@@ -2,7 +2,7 @@ export default [
     {
         img: "../looker-studio.png",
         imgSecondary:"../LookerStudio.png",
-        title: "Looker Studio - What's new? small change",
+        title: "Looker Studio new change - What's new? small change",
         summary: "Some already have seen this coming in 2020 after google acquired looker for not less then $2,6 billion...",
         date: "Uploaded 23 December 2022 - By David",
         contentPartOne: "Some already have seen this coming in 2020 after google acquired looker for not less then $2,6 billion, that eventually everything related to advanced data analytics was going to become branded with looker.<br />They recently even updated the url to lookerstudio.google.com from datastudio.google.com, to we all will start living in the looker era of advanced data analytics products from Google. So what are new features exactly, did they upgrade the functionality of datastudio and perhaps made it faster? One of the most common complaints to date has been that the current version of datastudio simply is not fitted for companies that deal with large sums of data with advanced filters. Simply put, in google terms they say:",
