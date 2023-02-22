@@ -9,6 +9,7 @@ import { Route, Routes } from 'react-router-dom';
 import About from './components/About';
 import Article from './Views/Article';
 
+
 const App = () => {
 
   const blogCards = blogData.map(item => {
@@ -70,5 +71,4 @@ const App = () => {
 }
 
 export default App;
-
 

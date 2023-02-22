@@ -62,6 +62,7 @@
     font-weight:40;
     padding-left: 5%;
     margin-bottom: 80px;
+    text-decoration:none;
   }
   .main-text {
     color: white;
@@ -81,22 +82,27 @@
     font-family: 'Poppins'; 
     margin-left: auto;
     margin-right: auto;
+    text-decoration:none;
+    justify-content: center;
   }
   .cards-list {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    text-decoration:none;
   }
   .blog-summary {
     font-size: 14px;
     width: 73%;
     font-style: italic;
+    text-decoration:none;
   }
   .upload-date{
     color:#26F6D1;
     font-family: 'Concert One';
     font-size: 18px;
     font-weight: 200;
+    text-decoration:none;
   }
    .upload-date-article{
     color:#26F6D1;
@@ -106,6 +112,7 @@
     font-size: 16px;
     padding-left: 7%;
     margin-bottom: 80px;
+    text-decoration:none;
   }
   .article-img  {
     width: 80%;
@@ -123,17 +130,20 @@
     display: block;
     margin-bottom:-17px;
   }
- .article-qoute {
-    font-family: 'Concert One';
+  .article-quote {
+    font-family: 'Poppins';
     color: #26F6D1;
-    font-weight: 100;
+    font-weight: 900;
     display: flex;
-    font-size: 26px;
+    width: 80%;
+    font-size: 18px;
     margin-left: auto;
     margin-right: auto;
-    width: 78%;
-
-  }
+    margin-top: 22px;
+    margin-bottom: 35px;
+    background: -webkit-linear-gradient(#26F6D1, #007df1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
  .article-quote-2  {
     font-family: 'Concert One';
     color: #26F6D1;
@@ -161,13 +171,24 @@
  .article-content-1,.article-content-2  {
     font-family: 'Poppins';
     color: white;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 100;
     padding-left: 10%;
     padding-right: 10%;
     width: 70%;
     
   }
+
+  .footer, .footer a {
+    color: white;
+    font-family: 'Concert One';
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+    list-style:none;
+    color: white;
+    text-decoration:none; 
+}
 
 
 /* Desktop */
@@ -309,6 +330,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-bottom:2%;
  
   }
   /* Desktop */
@@ -322,15 +344,37 @@
   }
   /* Desktop */
   .article-quote {
-    font-family: 'Concert One';
+    font-family: 'Poppins';
     color: #26F6D1;
-    font-weight: 100;
+    font-weight: 900;
     display: flex;
     width: 40%;
-    font-size: 38px;
+    font-size: 24px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 40px;
+
+    color: #5CA17C; /*non-webkit fallback*/
+  background: -webkit-linear-gradient( #6c02d0,#26F6D1, #3000bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
   }
+
+.article-steps {
+  font-family: 'Poppins';
+  color: #26F6D1;
+  font-weight: 900;
+  display: flex;
+  width: 40%;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+  
   /* Desktop */
   .article-quote-2  {
     font-family: 'Concert One';
@@ -338,7 +382,7 @@
     font-weight: 100;
     display: flex;
     width: 40%;
-    font-size: 14px;
+    font-size: 19px;
     margin-left: auto;
     margin-right: auto;
     font-style: italic;
@@ -368,14 +412,27 @@
   
   }
   /* Desktop */
-  .article-content-1,.article-content-2  {
+  .article-content-1  {
     font-family: 'Poppins';
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:0px;
+    width: 40%;
+
+  }
+
+  .article-content-2{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 16px;
     font-weight: 100;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    
   }
   /* Desktop */
 
@@ -392,10 +449,11 @@
   /* Desktop */
 
  .footer {
+      padding-top: 3%;
       color: white;
       font-family: 'Concert One';
       text-align: center;
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 100;
       list-style:none;
       color: white;
@@ -403,3 +461,5 @@
   }
 
 }
+
+{}

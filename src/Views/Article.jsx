@@ -21,7 +21,8 @@ const Article = () => {
             <p className="article-quote">{item.contentQuoteOne}</p>
             <img className="article-img-2" src={item.imgSecondary} />
             <p className="article-quote-2">{item.contentQuoteTwo}</p>
-            <h3 className="article-content-2">{item.contentPartTwo}</h3>
+            <h3 className="article-content-2" dangerouslySetInnerHTML={{ __html: item.contentPartTwo }}></h3>
+            <h3 classname="article-steps"  dangerouslySetInnerHTML={{ __html: item.contentStep}}></h3>
           </div>
         </>
       )
